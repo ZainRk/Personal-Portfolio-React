@@ -6,7 +6,8 @@
 }
 .n-left {
   flex: 1;
-  align-items:center;;
+  align-items:center;
+  justify-content: left;
   display: flex;
   gap: 2rem;
   }

@@ -6,7 +6,7 @@ import Sun from "@iconscout/react-unicons/icons/uil-sun";
 const Toggle = () => {
   return (
     <div className="toggle">
-        <Moon/>
+        <Moon />
         <Sun/>
         <div className="t-button"></div>
     </div>
