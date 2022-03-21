@@ -1,9 +1,11 @@
 import React from "react";
+
 import './FloatingDiv.css'
 
+
 const FloatinDiv = ({img, text1, text2}) => {
-    console.log(img)
   return (
+    // darkMode
     <div className="floatingDiv">
       <img src={img} alt="" />
       <span>

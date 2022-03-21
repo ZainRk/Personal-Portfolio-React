@@ -5,6 +5,8 @@
   gap: 5rem;
   height: 30vh;
   margin-bottom: 8rem;
+  /* darkmode */
+  color: var(--black);
 }
 .achievement{
     display: flex;

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Intro.css";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
@@ -10,13 +10,17 @@ import FloatinDiv from "../FloatingDiv/FloatingDiv";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
 import Instagram from "../../img/instagram.png";
+import { themeContext } from "../../Context";
 const Intro = () => {
+  const theme = useContext(themeContext);
+  const darkMode  = theme.state.darkMode;
   return (
     <div className="Intro">
       {/* left name side */}
       <div className="i-left">
         <div className="i-name">
-          <span>Hy! I Am</span>
+          {/* yahan change hy darkmode ka */}
+          <span style={{color: darkMode?"white":''}}>Hy! I Am</span>
           <span>Andrew Thomas</span>
           <span>
             Frontend Developer with high level of experience in web designing
@@ -39,6 +43,7 @@ const Intro = () => {
         <img src={boy} alt="" />
         <img src={glassesimoji} alt="" />
         <div style={{ top: "18rem", left: "0rem" }}>
+          {/* floatinDiv mein change hy dark mode ka */}
           <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
         </div>
         <div style={{ top: "-4%", left: "68%" }}>

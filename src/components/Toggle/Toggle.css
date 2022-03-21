@@ -5,6 +5,8 @@
     border-radius: 1rem;
     position: relative;
     padding: 2px;
+    cursor: pointer;
+
 }
 .toggle>*{
     width: 1rem;
@@ -15,6 +17,4 @@
     border-radius: 100%;
     background: var(--orange);
     position: absolute;
-    left: 2px;
-    cursor: pointer;
 }
