@@ -12,6 +12,7 @@ import LinkedIn from "../../img/linkedin.png";
 import Instagram from "../../img/instagram.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
+import { Link } from "react-scroll";
 const Intro = () => {
   // Transition
   const transition = { duration: 2, type: "spring" };
@@ -33,8 +34,9 @@ const Intro = () => {
             and development, producting the Quality work
           </span>
         </div>
-
-        <button className="button i-button">Hire me</button>
+        <Link to="contact" smooth={true} spy={true}>
+          <button className="button i-button">Hire me</button>
+        </Link>
         {/* social icons */}
         <div className="i-icons">
           <img src={Github} alt="" />
@@ -57,9 +59,10 @@ const Intro = () => {
         />
 
         <motion.div
-        initial={{ top: "-4%", left: "74%" }}
-        whileInView={{left: '68%'}}
-        transition={transition}
+          initial={{ top: "-4%", left: "74%" }}
+          whileInView={{ left: "68%" }}
+          transition={transition}
+          className="floating-div"
         >
           <FloatinDiv img={crown} text1="Web" text2="Developer" />
         </motion.div>
@@ -69,6 +72,7 @@ const Intro = () => {
           initial={{ left: "9rem", top: "18rem" }}
           whileInView={{ left: "0rem" }}
           transition={transition}
+          className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
           <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />

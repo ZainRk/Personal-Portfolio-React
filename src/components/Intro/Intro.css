@@ -37,15 +37,15 @@
   width: 6rem;
   height: 2rem;
 }
-.i-icons{
+.i-icons {
   margin-top: 3rem;
   display: flex;
   gap: 0rem;
 }
-.i-icons>*{
+.i-icons > * {
   transform: scale(0.5);
 }
-.i-icons>*:hover{
+.i-icons > *:hover {
   cursor: pointer;
 }
 /* right side styling */
@@ -81,14 +81,34 @@
 
 /* blur */
 .blur {
-    position: absolute;
-    width: 22rem;
-    height: 14rem;
-    border-radius: 50%;
-    background: #edd0ff;
-    filter: blur(212px);
-    z-index: -9;
-    top: -18%;
-    left: 56%;
-    filter: blur(72px);
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #edd0ff;
+  filter: blur(212px);
+  z-index: -9;
+  top: -18%;
+  left: 56%;
+  filter: blur(72px);
+}
+
+@media screen and (max-width: 480px) {
+  .Intro {
+    flex-direction: column;
+    gap: 7rem;
+    height: 64rem;
+  }
+
+  .i-right {
+    transform: scale(0.8);
+    left: -3rem;
+  }
+  .i-right .blur {
+    display: none;
+  }
+  .floating-div:nth-of-type(1){
+    /* display: none; */
+    top: -7rem !important;;
+  }
 }

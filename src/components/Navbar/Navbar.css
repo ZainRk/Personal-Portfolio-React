@@ -3,14 +3,15 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 2rem;
+  top: 0;
 }
 .n-left {
   flex: 1;
-  align-items:center;
+  align-items: center;
   justify-content: left;
   display: flex;
   gap: 2rem;
-  }
+}
 
 .n-name {
   font-size: 1.3rem;
@@ -24,8 +25,8 @@
   font-weight: 400;
 }
 
-.n-list{
-  flex:10;
+.n-list {
+  flex: 10;
 }
 .n-list > ul {
   display: flex;
@@ -38,8 +39,12 @@
   cursor: pointer;
 }
 
-.n-button{
-  flex: 2
+.n-button {
+  flex: 2;
 }
 
-
+@media screen and (max-width: 480px) {
+  .n-list {
+    display: none;
+  }
+}

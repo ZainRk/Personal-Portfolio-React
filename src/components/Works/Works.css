@@ -52,7 +52,7 @@
   /* darkMode */
   z-index: 2;
 }
-.w-mainCircle>*{
+.w-mainCircle > * {
   position: absolute;
 }
 .w-mainCircle > :nth-child(1) {
@@ -93,7 +93,7 @@
   transform: scale(0.6);
 }
 
-.w-backCircle{
+.w-backCircle {
   position: absolute;
   height: 13rem;
   width: 13rem;
@@ -101,13 +101,36 @@
   /* darkMode */
   z-index: 1;
 }
-.blueCircle{
-  background: #1949B8;
+.blueCircle {
+  background: #1949b8;
   left: 18rem;
   top: 0rem;
 }
-.yellowCircle{
-  background: #F5C32C;
+.yellowCircle {
+  background: #f5c32c;
   left: 18rem;
-    top: 8rem;
+  top: 8rem;
+}
+
+@media screen and (max-width: 480px) {
+  .works {
+    flex-direction: column;
+    height: 55rem;
+    padding: 0;
+    gap: 5rem;
+  }
+
+  .w-right {
+    display: flex;
+    align-items: flex-start;
+    justify-content:start;
+    transform: scale(0.7);
+  }
+  .w-mainCircle{
+    position: static;
+  }
+  .w-backCircle{
+    left: 8rem!important;
+  }
+
 }
