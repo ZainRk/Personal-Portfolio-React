@@ -14,7 +14,7 @@ const Works = () => {
 
   // transition
   return (
-    <div className="works">
+    <div className="works" id="works">
       {/* left side */}
       <div className="w-left">
         <div className="awesome">

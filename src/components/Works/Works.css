@@ -3,6 +3,9 @@
   display: flex;
   height: 90vh;
   margin-top: 4rem;
+
+  /* scroll */
+  align-items: center;
 }
 /* left side */
 .awesome {
