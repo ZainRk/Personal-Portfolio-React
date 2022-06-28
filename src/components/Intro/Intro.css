@@ -112,3 +112,9 @@
     top: -7rem !important;;
   }
 }
+
+
+.intro-button{
+  display: flex;
+  gap: 20px;
+}

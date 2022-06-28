@@ -17,17 +17,20 @@
   font-size: 1.3rem;
   font-weight: bold;
 }
+.n-logo img{
+   width: 3rem;
+   height: 2.5rem;
+   border-radius: 50%;
+   cursor: pointer;
+}
 .n-right {
   flex: 1;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: right;
   font-weight: 400;
 }
 
-.n-list {
-  flex: 10;
-}
 .n-list > ul {
   display: flex;
   gap: 2rem;

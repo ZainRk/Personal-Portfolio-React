@@ -1,14 +1,18 @@
 import React, { useContext } from "react";
-import "./Services.css";
+import "./Education.css";
 import Card from "../Card/Card";
 import HeartEmoji from "../../img/heartemoji.png";
+import MasaiSchool from "../../img/MasaiSchool.png";
+import DN from "../../img/DN.jpg";
+import NBS from "../../img/NBS.jpg";
+
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+// import Resume from './resume.pdf';
 
-const Services = () => {
+const Education = () => {
   // context
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -24,16 +28,9 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>services</span>
-        <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
-          <br />
-          ispum is simpley dummy text of printing
-        </spane>
-        <a href={Resume} download>
-          <button className="button s-button">Download CV</button>
-        </a>
+        <span style={{ color: darkMode ? "white" : "" }}>My Education Details</span>
+
+
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
       {/* right */}
@@ -45,9 +42,12 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            emoji={MasaiSchool}
+            course={"Full Stack Web Development"}
+            college={"Masai School, Bengaluru"}
+            duration={"2021-22"}
+
+
           />
         </motion.div>
         {/* second card */}
@@ -57,9 +57,10 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            emoji={DN}
+            course={"B.Sc. Computer Science"}
+            college={"D.N. College, Hisar (Haryana)"}
+            duration={"2016-19"}
           />
         </motion.div>
         {/* 3rd */}
@@ -69,11 +70,10 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            emoji={Humble}
-            heading={"UI/UX"}
-            detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
-            }
+            emoji={NBS}
+            course={"12th Non-Medical"}
+            college={"Nav Bharat School, Siwani (Haryana)"}
+            duration={"2015-16"}
             color="rgba(252, 166, 31, 0.45)"
           />
         </motion.div>
@@ -86,4 +86,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Education;
