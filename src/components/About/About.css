@@ -9,26 +9,41 @@
     padding-top: 3rem;
   }
   /* left side */
-  .awesom {
+  .wesome {
     display: flex;
     flex-direction: column;
     position: relative;
+    width: 42%;
+    /* border: 1px solid red; */
+    margin: 0px;
     /* gap: 20px; */
   }
   
-  .awesom > :nth-child(1) {
+  .wesome > :nth-child(1) {
     color: var(--black);
     font-size: 2.5rem;
     font-weight: bold;
   }
-  .awesom > :nth-child(2) {
-    color: var(--orange);
+  .wesome > :nth-child(2) {
+    color: var(--black);
     font-size: 2.5rem;
     font-weight: bold;
   }
-  .awesom > :nth-child(3) {
+  .wesome > :nth-child(3) {
     color: var(--gray);
-    font-size: 14px;
+    /* border: 1px solid red; */
+    font-size: .8rem;
+    margin-top: 1rem;
+  }
+  .wesome > :nth-child(5) {
+    color: var(--orange);
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .wesome > :nth-child(6),:nth-child(7) {
+    color: var(--gray);
+    /* border: 1px solid red; */
+    font-size: .8rem;
     margin-top: 1rem;
   }
   .s-button {
@@ -68,8 +83,11 @@
       display: flex;
       flex-direction: column;
       gap: 17rem;
+      border: 1px solid red;
     }
     .cards > * {
       position: static;
     }
   }
+
+

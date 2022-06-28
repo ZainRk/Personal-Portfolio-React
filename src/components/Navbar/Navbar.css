@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 2rem;
+  width: 100%;
   top: 0;
 }
 .n-left {

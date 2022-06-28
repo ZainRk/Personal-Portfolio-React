@@ -6,7 +6,9 @@
       /* scroll */
   padding-top: 3rem;
 }
-
+.awesome{
+    border: 1ps solid red;
+}
 .c-right{
     display: flex;
     justify-content: center;

@@ -13,7 +13,7 @@ const Portfolio = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div className="portfolio" id="portfolio">
+    <div className="portfolio" id="projects">
       {/* heading */}
       <span style={{color: darkMode?'white': ''}}>Recent Projects</span>
       <span>Portfolio</span>
@@ -33,7 +33,7 @@ const Portfolio = () => {
           <span style={{color:"orange"}}>Headphone Zone</span>
           <br />
           <br />
-          <button className="c-button" ><Link style={{fontSize:'15px'}} spy={true} smooth={true} to="/home">Check It</Link></button>
+          <a href='https://unique-sprite-5a80fe.netlify.app/'><button className="c-button" >Check it</button></a>
         </SwiperSlide>
         <SwiperSlide className="project">
           <img src={spotify} alt="" />
@@ -44,7 +44,7 @@ const Portfolio = () => {
           <br />
           <br />
 
-          <button className="c-button" ><Link style={{fontSize:'15px'}} spy={true} smooth={true} to="skills">Check It</Link></button>
+          <a href='https://www.spotify.com/in-en/'><button className="c-button" >Check it</button></a>
         </SwiperSlide>
          <SwiperSlide className="project">
           <img src={airbnb} alt="" />
@@ -54,7 +54,7 @@ const Portfolio = () => {
           <span style={{color:"orange"}}>Airbnb </span>
           <br />
           <br />
-          <button className="c-button" ><Link style={{fontSize:'15px'}} spy={true} smooth={true} to="skills">Check It</Link></button>
+          <a href='https://www.airbnb.co.in/'><button className="c-button" >Check it</button></a>
         </SwiperSlide>
         {/*
         <SwiperSlide>

@@ -28,7 +28,7 @@ const Intro = () => {
   const darkMode = theme.state.darkMode;
 
   return (
-    <div className="Intro" id="Intro">
+    <div className="Intro" id="home">
       <div className="i-left">
         <div className="i-name">
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
@@ -52,8 +52,8 @@ const Intro = () => {
         <div className="i-icons">
           <a href="https://github.com/raman186"><img src={Github} alt=""  target="blank"/></a>
           <a href="https://www.linkedin.com/in/raman-goyal-97b959150/" target="blank"><img src={LinkedIn} alt="" /></a>
-          <a href="https://www.linkedin.com/in/raman-goyal-97b959150/" target="blank"></a><img src={Instagram} alt="" />
-          <a href="mailto:goyalraman755@gmail.com" title="goyalraman755@gmail.com" target="blank"></a><img src={Email} alt="" />
+          <a href="https://www.instagram.com/r_goyal0001/" target="blank"><img src={Instagram} alt="" /></a>
+          <a href="mailto:goyalraman755@gmail.com" title="goyalraman755@gmail.com" target="blank"><img src={Email} alt="" /></a>
         </div>
       </div>
       {/* right image side */}

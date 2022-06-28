@@ -24,9 +24,9 @@ const Education = () => {
   };
 
   return (
-    <div className="services" id="services">
+    <div className="services" id="education">
       {/* left side */}
-      <div className="awesome">
+      <div className="awesom">
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Education Details</span>
 
@@ -45,6 +45,7 @@ const Education = () => {
             emoji={MasaiSchool}
             course={"Full Stack Web Development"}
             college={"Masai School, Bengaluru"}
+            url={"https://www.masaischool.com/"}
             duration={"2021-22"}
 
 
@@ -60,6 +61,7 @@ const Education = () => {
             emoji={DN}
             course={"B.Sc. Computer Science"}
             college={"D.N. College, Hisar (Haryana)"}
+            url={"https://www.dnc.ac.in/"}
             duration={"2016-19"}
           />
         </motion.div>
@@ -73,6 +75,7 @@ const Education = () => {
             emoji={NBS}
             course={"12th Non-Medical"}
             college={"Nav Bharat School, Siwani (Haryana)"}
+            url={"https://goo.gl/maps/c6NwVYKqDY52RAbWA"}
             duration={"2015-16"}
             color="rgba(252, 166, 31, 0.45)"
           />

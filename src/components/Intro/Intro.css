@@ -11,6 +11,7 @@
   flex: 1;
   flex-direction: column;
   gap: 2rem;
+  width: 20%;
 }
 .i-name {
   display: flex;
@@ -29,7 +30,7 @@
 }
 .i-name > :nth-child(3) {
   font-weight: 100;
-  font-size: 14px;
+  font-size: .8rem;
   color: var(--gray);
   margin-top: 10px;
 }

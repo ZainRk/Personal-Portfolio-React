@@ -1,6 +1,5 @@
 import React from "react";
 import Toggle from "../Toggle/Toggle";
-import { themeContext } from "../../Context";
 import "./Navbar.css";
 import { Link } from "react-scroll";
 import RG from '../../img/rr.jpg'
@@ -24,6 +23,11 @@ const navbar = () => {
             <li>
               <Link activeClass="active" to="home" spy={true} smooth={true}>
                 Home
+              </Link>
+            </li>
+            <li>
+              <Link activeClass="active" to="about" spy={true} smooth={true}>
+                About
               </Link>
             </li>
             <li>
