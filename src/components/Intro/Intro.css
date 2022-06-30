@@ -17,6 +17,8 @@
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
+  width: 80%;
+  margin: auto;
 }
 .i-name > :nth-child(1) {
   color: var(--black);
@@ -70,7 +72,10 @@
 }
 .i-right > :nth-child(3) {
   transform: scale(1.4);
-  left: 28%;
+  width: 65%;
+  border-radius: 12%;
+  top:6%;
+  left: 10%;
 }
 .i-right > :nth-child(4) {
   transform: scale(0.62);
@@ -118,4 +123,5 @@
 .intro-button{
   display: flex;
   gap: 20px;
+  
 }

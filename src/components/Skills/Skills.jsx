@@ -1,9 +1,7 @@
 import React, { useContext } from "react";
 import "./Skills.css";
 import { themeContext } from "../../Context";
-import { motion } from "framer-motion";
 import SkillCard from "./SkillCard";
-import Resume from './resume.pdf';
 
 
 const Skills = () => {
@@ -12,10 +10,10 @@ const Skills = () => {
   const darkMode = theme.state.darkMode;
 
   // transition
-  const transition = {
-    duration: 1,
-    type: "spring",
-  };
+  // const transition = {
+  //   duration: 1,
+  //   type: "spring",
+  // };
 
   return (
     <div className="skills" id="skills">
@@ -25,8 +23,8 @@ const Skills = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>skills</span>
 
-        <a href={Resume} download>
-          <button className="button s-button">Download CV</button>
+        <a href="https://drive.google.com/file/d/1Xuj-DiXOcgdp-1R_gQo0bSremKxLsSz8/view?usp=sharing" target="blank">
+          <button className="button s-button"> View Resume </button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
@@ -47,12 +45,7 @@ const Skills = () => {
             <SkillCard url='https://cdn.svgporn.com/logos/mongodb.svg' text="MongoDb" />
             <SkillCard url='https://cdn.svgporn.com/logos/mysql.svg' text="SQL" />
             <SkillCard url='https://cdn.svgporn.com/logos/nodejs.svg' text="Node" />
-            <SkillCard url='https://brandlogos.net/wp-content/uploads/2021/09/bootstrap-logo.png' text='Bootstrap' />
-
-
-
-            {/* <SkillCard url="https://gozattila.dev/static/media/styled_components.a46dc006.png" text='Styled-Components' /> */}
- 
+            <SkillCard url='https://brandlogos.net/wp-content/uploads/2021/09/bootstrap-logo.png' text='Bootstrap' /> 
           </div>
         </div>
         <div className="list">
@@ -68,13 +61,10 @@ const Skills = () => {
             <SkillCard url="https://www.netlify.com/v3/img/components/logomark.png" text="Netlify" />
             <SkillCard url='https://pbs.twimg.com/profile_images/1244925541448286208/rzylUjaf_400x400.jpg' text='Chakra-UI' />
             <SkillCard url='https://mui.com/static/logo.png' text='Material-UI' />
-
             <SkillCard url="https://static.vecteezy.com/system/resources/previews/001/200/668/original/triangle-rounded-png.png" text="Vercel" />
             <SkillCard url="https://uploads.sitepoint.com/wp-content/uploads/2016/04/1461122387heroku-logo.jpg" text="Heroku" />
           </div>
         </div>
-
-
       </div>
     </div>
   );

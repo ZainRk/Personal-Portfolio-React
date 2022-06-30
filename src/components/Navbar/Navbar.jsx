@@ -4,9 +4,10 @@ import "./Navbar.css";
 import { Link } from "react-scroll";
 import RG from '../../img/rr.jpg'
 
+
 const navbar = () => {
   return (
-    <div className="n-wrapper" id="Navbar">
+    <div className="n-wrapper" id="Navbar" >
       {/* left */}
       <div className="n-left">
         <div className="n-logo">
@@ -26,7 +27,7 @@ const navbar = () => {
               </Link>
             </li>
             <li>
-              <Link activeClass="active" to="about" spy={true} smooth={true}>
+              <Link to="about" spy={true} smooth={true}>
                 About
               </Link>
             </li>

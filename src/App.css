@@ -16,6 +16,12 @@
     overflow: hidden;
     color: var(--black);    
 }
+.nav{
+  overflow: hidden;
+  position: fixed;
+  z-index: 5;
+  background-color: red;
+}
 
 .button {
     background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);

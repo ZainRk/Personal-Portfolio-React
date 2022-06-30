@@ -1,4 +1,4 @@
-.services {
+.about {
     padding: 0 3rem 0 3rem;
     display: flex;
     height: 30rem;
@@ -7,6 +7,7 @@
     margin-bottom: 13rem;
     /* scroll view */
     padding-top: 3rem;
+    /* border: 1px solid red; */
   }
   /* left side */
   .wesome {
@@ -15,7 +16,7 @@
     position: relative;
     width: 42%;
     /* border: 1px solid red; */
-    margin: 0px;
+    margin-top: 3rem;
     /* gap: 20px; */
   }
   

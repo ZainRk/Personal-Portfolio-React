@@ -5,7 +5,7 @@ import Card from "../Card/Card";
 import MasaiSchool from "../../img/MasaiSchool.png";
 import DN from "../../img/DN.jpg";
 import NBS from "../../img/NBS.jpg";
-import Raman from '../../img/raman-goyal.jpg'
+import Raman from '../../img/raman.jpeg'
 
 // import Glasses from "../../img/glasses.png";
 // import Humble from "../../img/humble.png";
@@ -25,14 +25,16 @@ const About = () => {
   };
 
   return (
-    <div className="services" id="about">
+    <div className="about" id="about">
       {/* left side */}
       <div className="wesome">
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>About</span>
         <span></span>
         <span>A passionate Full Stack Software Developer 🚀 having an knowledge of building Web and Mobile applications
-             with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.</span>
+             with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks. 
+             Observant and detail-oriented aspiring full-stack developer with a specialization in MERN stack. 
+             Self-motivated and curious, with a keen interest in building usercentric products.</span>
         <br />
         <span>What I Do</span>
         <span>CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK</span>
@@ -51,11 +53,11 @@ const About = () => {
       <div className="cards">
         {/* photo */}
         <motion.div
-          initial={{ left: "8rem" }}
+          initial={{ left: "4rem" }}
           whileInView={{ left: "14rem" }}
           transition={transition}
         >
-          <img src={Raman} alt="" style={{width:"300px", borderRadius:"50%"}}/>
+          <img src={Raman} alt="" style={{width:"20rem",borderRadius:"50%", top:"20px"}}/>
         </motion.div>
 
         <div

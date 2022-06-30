@@ -1,6 +1,6 @@
 import React from "react";
 import "./Card.css";
-import { Link } from 'react-scroll'
+// import { Link } from 'react-scroll'
 
 const Card = ({emoji, course, college, url, duration, color}) => {
   return (

@@ -1,16 +1,11 @@
 import React, { useContext } from "react";
 import "./Education.css";
 import Card from "../Card/Card";
-import HeartEmoji from "../../img/heartemoji.png";
 import MasaiSchool from "../../img/MasaiSchool.png";
 import DN from "../../img/DN.jpg";
 import NBS from "../../img/NBS.jpg";
-
-import Glasses from "../../img/glasses.png";
-import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-// import Resume from './resume.pdf';
 
 const Education = () => {
   // context

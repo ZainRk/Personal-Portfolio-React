@@ -4,8 +4,16 @@
   justify-content: space-between;
   margin-bottom: 2rem;
   width: 100%;
-  top: 0;
+  position: fixed;
+  /* border:1px solid red; */
+  /* overflow: hidden; */
+  /* right: 5px; */
+  left: 0;
+  top: 0px;
+  background-color: rgb(69, 69, 246);
+  z-index: 9;
 }
+
 .n-left {
   flex: 1;
   align-items: center;
@@ -22,6 +30,7 @@
    width: 3rem;
    height: 2.5rem;
    border-radius: 50%;
+   margin-left: .7rem;
    cursor: pointer;
 }
 .n-right {
@@ -30,6 +39,7 @@
   align-items: center;
   justify-content: right;
   font-weight: 400;
+  margin-right: .7rem;
 }
 
 .n-list > ul {

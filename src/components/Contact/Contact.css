@@ -56,3 +56,16 @@ textarea{
     }
 
 }   
+
+.icons {
+    display: flex;
+    gap: 0rem;
+    /* left:0; */
+    /* border:1px solid red; */
+  }
+  .icons > * {
+    transform: scale(0.5);
+  }
+  .icons > *:hover {
+    cursor: pointer;
+  }
