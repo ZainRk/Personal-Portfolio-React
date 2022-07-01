@@ -1,4 +1,4 @@
-.services {
+.edu {
   padding: 0 3rem 0 3rem;
   display: flex;
   height: 30rem;
@@ -56,12 +56,13 @@
 }
 
 @media screen and (max-width: 560px) {
-  .services {
+  .edu {
     margin-top: 0;
     flex-direction: column;
-    gap: 5rem;
-    height: 66rem;
+    gap: 2rem;
+    height: 50rem;
     padding: 0;
+    /* border: 1px solid red; */
   }
 
   .cards {

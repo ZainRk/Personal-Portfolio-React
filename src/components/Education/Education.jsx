@@ -19,7 +19,7 @@ const Education = () => {
   };
 
   return (
-    <div className="services" id="education">
+    <div className="edu" id="education">
       {/* left side */}
       <div className="awesom">
         {/* dark mode */}

@@ -81,8 +81,9 @@
     margin-top: 0;
     flex-direction: column;
     gap: 5rem;
-    height: 66rem;
+    height: 60rem;
     padding: 0;
+    /* border: 1px solid red; */
   }
 
   .cards {
@@ -94,9 +95,7 @@
   .wesome{
     width: 90%;
   }
-  .photo{
-    border: 1px solid red;
-  }
+
   .cards > * {
     position: static;
   }
