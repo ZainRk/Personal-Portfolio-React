@@ -41,9 +41,14 @@ const Portfolio = () => {
           <div className="features">
             <span style={{color: darkMode?'white': ''}}> Features -</span><br />
             <span style={{color:"gray", fontSize:".8rem"}}> ●	Social Sign-in/Sign-up</span>
-            <span style={{color:"gray", fontSize:".8rem"}}>●	Add to Cart Functionality</span>
-            <span style={{color:"gray", fontSize:".8rem"}}>●	Increase and Decrease Functionality for products</span><br /><br />
-
+            <span style={{color:"gray", fontSize:".8rem"}}> ●	Add to Cart Functionality</span>
+            <span style={{color:"gray", fontSize:".8rem"}}> ●	Increase and Decrease Functionality for products</span><br /><br />
+          </div>
+          <div className="tech-stack">
+            <span style={{color: darkMode?'white': ''}}> Tech Stack Used -</span><br />
+            <span style={{color:"gray", fontSize:".8rem"}}> 	HTML</span> |
+            <span style={{color:"gray", fontSize:".8rem"}}> 	CSS</span> |
+            <span style={{color:"gray", fontSize:".8rem"}}> 	JavaScript</span><br /><br />
           </div>
 
           <a href='https://unique-sprite-5a80fe.netlify.app/' target="blank"><button className="c-button" >Check it</button></a>
@@ -61,10 +66,16 @@ const Portfolio = () => {
           <div className="features">
             <span style={{color: darkMode?'white': ''}}> Features -</span><br />
             <span style={{color:"gray", fontSize:".8rem"}}> ●	Social Sign-in/Sign-up</span>
-            <span style={{color:"gray", fontSize:".8rem"}}>●	Add and Delete Playlist Functionality</span>
-            <span style={{color:"gray", fontSize:".8rem"}}>●	Search Functionality</span>       
+            <span style={{color:"gray", fontSize:".8rem"}}> ●	Add and Delete Playlist Functionality</span>
+            <span style={{color:"gray", fontSize:".8rem"}}> ●	Search Functionality</span>       
             <span style={{color:"gray", fontSize:".8rem"}}> ●	Listening Music </span><br />
-
+          </div>
+          <div className="tech-stack">
+            <span style={{color: darkMode?'white': ''}}> Tech Stack Used -</span><br />
+            <span style={{color:"gray", fontSize:".8rem"}}> 	HTML</span> |
+            <span style={{color:"gray", fontSize:".8rem"}}> 	CSS</span> |
+            <span style={{color:"gray", fontSize:".8rem"}}> 	JavaScript</span> |
+            <span style={{color:"gray", fontSize:".8rem"}}> 	JSON</span><br /><br />
           </div>
 
           <a href='https://rgoyal0001.github.io/Spotify_Clone/' target="blank"><button className="c-button" >Check it</button></a>

@@ -66,15 +66,20 @@
   text-align: left;
   margin-left: 3rem;
 }
+.tech-stack{
+  text-align: left;
+  margin-left: 3rem;
+
+}
 
 
-.features span:nth-of-type(1){
+.features span:nth-of-type(1), .tech-stack span:nth-of-type(1){
   font-size: 1rem;
 
   /* border: 1px solid red; */
 
 }
-.features span:nth-of-type(2){
+.features span:nth-of-type(2), .tech-stack span:nth-of-type(2){
   /* border: 1px solid blue; */
   justify-content: left;
 
