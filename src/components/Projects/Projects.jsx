@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./Projects.css";
-import { Swiper, SwiperSlide } from "swiper/react"
+// import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
 import headphoneZone from "../../img/headphoneZone.png";
 import spotify from "../../img/spotify.png";
@@ -16,14 +16,22 @@ const Portfolio = () => {
       <span>project</span>
 
       {/* slider */}
-      <Swiper
-        spaceBetween={30}
-        slidesPerView={3}
-        grabCursor={true}
-        className="project-slider"
-      >
-        <SwiperSlide className="project-items">
-          <img src={headphoneZone} alt="" />
+      
+
+         {/* <SwiperSlide className="project">
+          <img src={airbnb} alt="" />
+          <br />
+          <br />
+          
+          <span style={{color:"orange"}}>Airbnb </span>
+          <br />
+          <br />
+          <a href='https://www.airbnb.co.in/'><button className="c-button" >Check it</button></a>
+        </SwiperSlide> */}
+
+      <div className="project-slider">
+        <div className="project-items">
+        <img src={headphoneZone} alt="" />
           <br />
           <br />
           
@@ -39,9 +47,11 @@ const Portfolio = () => {
           </div>
 
           <a href='https://unique-sprite-5a80fe.netlify.app/' target="blank"><button className="c-button" >Check it</button></a>
-        </SwiperSlide>
-        <SwiperSlide className="project-items">
-          <img src={spotify} alt="" />
+
+        </div>
+        <br />
+        <div className="project-items">
+        <img src={spotify} alt="" />
           <br />
           <br />
           
@@ -58,18 +68,9 @@ const Portfolio = () => {
           </div>
 
           <a href='https://rgoyal0001.github.io/Spotify_Clone/' target="blank"><button className="c-button" >Check it</button></a>
-        </SwiperSlide>
-         {/* <SwiperSlide className="project">
-          <img src={airbnb} alt="" />
-          <br />
-          <br />
-          
-          <span style={{color:"orange"}}>Airbnb </span>
-          <br />
-          <br />
-          <a href='https://www.airbnb.co.in/'><button className="c-button" >Check it</button></a>
-        </SwiperSlide> */}
-      </Swiper>
+
+        </div>
+      </div>
     </div>
   );
 };

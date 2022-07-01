@@ -1,14 +1,7 @@
 import React, { useContext } from "react";
 import "./About.css";
-import Card from "../Card/Card";
-// import HeartEmoji from "../../img/heartemoji.png";
-import MasaiSchool from "../../img/MasaiSchool.png";
-import DN from "../../img/DN.jpg";
-import NBS from "../../img/NBS.jpg";
+// import Card from "../Card/Card";
 import Raman from '../../img/raman.jpeg'
-
-// import Glasses from "../../img/glasses.png";
-// import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 // import Resume from './resume.pdf';
@@ -57,7 +50,8 @@ const About = () => {
           whileInView={{ left: "14rem" }}
           transition={transition}
         >
-          <img src={Raman} alt="" style={{width:"20rem",borderRadius:"50%", top:"20px"}}/>
+          <img src={Raman} alt="" className="photo"
+          style={{width:"20rem",borderRadius:"50%", top:"20px"}}/>
         </motion.div>
 
         <div

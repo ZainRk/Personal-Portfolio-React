@@ -11,14 +11,14 @@
   flex: 1;
   flex-direction: column;
   gap: 2rem;
-  width: 20%;
+  /* width: 20%; */
 }
 .i-name {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
-  width: 80%;
-  margin: auto;
+  /* width: 80%;
+  margin: auto; */
 }
 .i-name > :nth-child(1) {
   color: var(--black);
@@ -72,8 +72,8 @@
 }
 .i-right > :nth-child(3) {
   transform: scale(1.4);
-  width: 65%;
-  border-radius: 12%;
+  width: 90%;
+  /* border-radius: 12%; */
   top:6%;
   left: 10%;
 }
@@ -99,7 +99,11 @@
   filter: blur(72px);
 }
 
-@media screen and (max-width: 480px) {
+
+
+
+
+@media screen and (max-width: 560px) {
   .Intro {
     flex-direction: column;
     gap: 7rem;

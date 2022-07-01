@@ -4,6 +4,7 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  margin: auto;
 
   /* height: 70vh; */
 
@@ -31,6 +32,9 @@
 .project-slider {
   margin-top: 3rem;
   width: 100%;
+  display: flex;
+  gap: 2%;
+  border-radius: 8px;
   /* border: 1px solid blue; */
 }
 
@@ -42,7 +46,7 @@
   
 }
 .project img {
-  width: 19rem;
+  width: 70%;
   filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
   border-radius: 19px;
 }
@@ -50,6 +54,7 @@
 .project-items{
   box-shadow: rgba(181, 196, 11, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;  /* border: 1px solid blue; */
   padding: 2rem;
+  border-radius: 8px;
 }
 .c-button{
   background-color: orange;
@@ -72,5 +77,19 @@
 .features span:nth-of-type(2){
   /* border: 1px solid blue; */
   justify-content: left;
+
+}
+
+@media screen and (max-width: 560px) {
+
+  .project-slider{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .project-items{
+    margin-bottom: 5rem;
+  }
 
 }
