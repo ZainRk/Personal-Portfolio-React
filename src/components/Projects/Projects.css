@@ -55,16 +55,19 @@
   box-shadow: rgba(181, 196, 11, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;  /* border: 1px solid blue; */
   padding: 2rem;
   border-radius: 8px;
+  width: 50%;
 }
 .c-button{
   background-color: orange;
   color: white;
 }
+
 .features{
   display: flex;
   flex-direction: column;
   text-align: left;
   margin-left: 3rem;
+  margin-right: 3rem;
 }
 .tech-stack{
   text-align: left;
@@ -83,6 +86,10 @@
   /* border: 1px solid blue; */
   justify-content: left;
 
+}
+.buttons{
+  display: flex;
+  justify-content: space-around;
 }
 
 @media screen and (max-width: 560px) {
