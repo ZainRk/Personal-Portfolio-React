@@ -4,7 +4,7 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  margin: auto;
+  /* margin: auto; */
 
   /* height: 70vh; */
 
@@ -21,41 +21,35 @@
   color: var(--orange);
   font-size: 2.5rem;
   font-weight: bold;
-
+  
 }
 
 /* slider */
-.project .swiper{
+/* .project .swiper{
     overflow: visible!important;
-}
+} */
 
 .project-slider {
-  margin-top: 3rem;
-  width: 100%;
-  display: flex;
+  margin: 3rem auto;
+  width: 98%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
   gap: 2%;
   border-radius: 8px;
-  /* border: 1px solid blue; */
-}
-
-.project-slider .swiper-slide {
-  width: 20rem;
-  margin: auto;
-  padding-right: 8%;
-  /* border: 1px solid white; */
-  
-}
-.project img {
-  width: 70%;
-  filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
-  border-radius: 19px;
 }
 
 .project-items{
   box-shadow: rgba(181, 196, 11, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;  /* border: 1px solid blue; */
-  padding: 2rem;
   border-radius: 8px;
-  width: 50%;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.demo-image {
+  width: 90%;
+  /* border: 1px solid red; */
+  filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+  border-radius: 19px;
+  margin: 5% auto;
 }
 .c-button{
   background-color: orange;
@@ -96,8 +90,8 @@
 
   .project-slider{
     /* border: 1px solid red; */
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
     
   }
   .project-items{
