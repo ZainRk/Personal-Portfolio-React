@@ -1,4 +1,4 @@
-.services {
+.about {
   padding: 0 3rem 0 3rem;
   display: flex;
   height: 30rem;
@@ -7,28 +7,44 @@
   margin-bottom: 13rem;
   /* scroll view */
   padding-top: 3rem;
+  /* border: 1px solid red; */
 }
 /* left side */
-.awesome {
+.wesome {
   display: flex;
   flex-direction: column;
   position: relative;
+  width: 42%;
+  /* border: 1px solid red; */
+  margin-top: 3rem;
   /* gap: 20px; */
 }
 
-.awesome > :nth-child(1) {
+.wesome > :nth-child(1) {
   color: var(--black);
   font-size: 2.5rem;
   font-weight: bold;
 }
-.awesome > :nth-child(2) {
-  color: var(--orange);
+.wesome > :nth-child(2) {
+  color: var(--black);
   font-size: 2.5rem;
   font-weight: bold;
 }
-.awesome > :nth-child(3) {
+.wesome > :nth-child(3) {
   color: var(--gray);
-  font-size: 14px;
+  /* border: 1px solid red; */
+  font-size: .8rem;
+  margin-top: 1rem;
+}
+.wesome > :nth-child(5) {
+  color: var(--orange);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.wesome > :nth-child(6),:nth-child(7) {
+  color: var(--gray);
+  /* border: 1px solid red; */
+  font-size: .8rem;
   margin-top: 1rem;
 }
 .s-button {
@@ -54,22 +70,35 @@
   top: 13rem;
   left: -18rem;
 }
+.photo{
+  width: 20rem;
+  border-radius: 50%;
+  top: 20px;
+}
 
-@media screen and (max-width: 480px) {
-  .services {
+@media screen and (max-width: 560px) {
+  .about {
     margin-top: 0;
     flex-direction: column;
     gap: 5rem;
-    height: 66rem;
+    height: 60rem;
     padding: 0;
+    /* border: 1px solid red; */
   }
 
   .cards {
     display: flex;
     flex-direction: column;
     gap: 17rem;
+    /* border: 1px solid red; */
   }
+  .wesome{
+    width: 90%;
+  }
+
   .cards > * {
     position: static;
   }
 }
+
+

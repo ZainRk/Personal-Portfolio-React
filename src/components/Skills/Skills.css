@@ -1,0 +1,171 @@
+
+.awesome {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: auto;
+
+}
+
+.awesome > :nth-child(1) {
+  color: var(--black);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.awesome > :nth-child(2) {
+  color: var(--orange);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.awesome > :nth-child(3) {
+  color: var(--gray);
+  font-size: 14px;
+  margin-top: 1rem;
+}
+.s-button {
+  width: 8rem;
+  height: 2rem;
+  margin-top: 1rem;
+}
+
+
+/* blur */
+.s-blur2 {
+  left: 14rem;
+  top: 8rem;
+}
+
+.s-blur1 {
+  top: 13rem;
+  left: -18rem;
+}
+
+@media screen and (max-width: 560px) {
+  .services {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    height: 66rem;
+    padding: 0;
+    border: 1px solid red;
+  }
+  .sec{
+    /* width: auto; */
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+  .skills-list{
+    display: flex;
+    flex-direction: column;
+    gap:17rem;
+    font-size: smaller;
+  }
+  /* .list{
+    /* width: 30px; */
+    /* border: 1px solid red; */
+   
+  .list div{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding: 1px;
+      width:300px;
+      /* border: 1px solid red; */
+  }
+
+}
+
+
+
+
+.sec{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+.skills-list{
+  /* border: 1px solid red; */
+  display: flex;
+  /* width:100%; */
+  gap:1%;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
+
+
+ 
+
+.list > :nth-child(1){
+  color: var(--orange);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.list{
+  /* width: 35%; */
+  margin: 5rem 0;
+  box-shadow: rgba(181, 196, 11, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;  /* border: 1px solid blue; */
+  padding: 2rem 0;
+  border-radius: 8px;
+  height: auto;
+  /* border: 1px solid red; */
+}
+
+.skills{
+  text-align: center;
+  position: relative;
+  /* border: 1px solid red; */
+  padding-top: 75px;
+}
+
+.s-heading>*{
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+.skills-section{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.tools-heading{
+  font-size: 2rem;
+  font-weight: 500;
+}
+.blur-s1{
+  left: 50rem;
+}
+.blur-s2{
+  left: -200px;
+  top: 3rem;
+}
+
+
+
+.styled-Div{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.26);
+  border: 3px solid var(--orangeCard);
+  box-shadow: var(--boxShadow);
+  border-radius: 20px;
+  padding: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+

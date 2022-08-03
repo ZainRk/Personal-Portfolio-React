@@ -1,7 +1,7 @@
 .Intro {
   display: flex;
   height: 77vh;
-  margin-top: 6rem;
+  margin-top: 10rem;
 }
 
 /* left side styling */
@@ -11,11 +11,14 @@
   flex: 1;
   flex-direction: column;
   gap: 2rem;
+  /* width: 20%; */
 }
 .i-name {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
+  /* width: 80%;
+  margin: auto; */
 }
 .i-name > :nth-child(1) {
   color: var(--black);
@@ -29,7 +32,7 @@
 }
 .i-name > :nth-child(3) {
   font-weight: 100;
-  font-size: 14px;
+  font-size: .8rem;
   color: var(--gray);
   margin-top: 10px;
 }
@@ -69,7 +72,10 @@
 }
 .i-right > :nth-child(3) {
   transform: scale(1.4);
-  left: 28%;
+  width: 70%;
+  /* border-radius: 12%; */
+  top:6%;
+  left: 10%;
 }
 .i-right > :nth-child(4) {
   transform: scale(0.62);
@@ -93,16 +99,23 @@
   filter: blur(72px);
 }
 
-@media screen and (max-width: 480px) {
+
+
+
+
+@media screen and (max-width: 560px) {
   .Intro {
     flex-direction: column;
-    gap: 7rem;
-    height: 64rem;
+    gap: 2rem;
+    height: 50rem;
   }
 
   .i-right {
     transform: scale(0.8);
     left: -3rem;
+  }
+  .i-right > :nth-child(3){
+    width: 100%;
   }
   .i-right .blur {
     display: none;
@@ -111,4 +124,11 @@
     /* display: none; */
     top: -7rem !important;;
   }
+}
+
+
+.intro-button{
+  display: flex;
+  /* gap: 20px; */
+  
 }

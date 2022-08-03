@@ -1,13 +1,14 @@
 import React from "react";
 import "./Card.css";
+// import { Link } from 'react-scroll'
 
-const Card = ({emoji, heading, detail, color}) => {
+const Card = ({emoji, course, college, url, duration, color}) => {
   return (
     <div className="card" style={{borderColor: {color}}}> 
-      <img src={emoji} alt="" />
-      <span>{heading}</span>
-      <span>{detail}</span>
-      <button className="c-button">LEARN MORE</button>
+      <img src={emoji} alt="" style={{width:"55px", height:"20%", margin:"20px", borderRadius:"50%"}}/>
+      <span>{course}</span>
+      <a href={url} target="blank" ><span><i>{college}</i></span></a>
+      <span>{duration}</span>
     </div>
   );
 };

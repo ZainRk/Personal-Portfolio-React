@@ -6,7 +6,9 @@
       /* scroll */
   padding-top: 3rem;
 }
-
+.awesome{
+    border: 1ps solid red;
+}
 .c-right{
     display: flex;
     justify-content: center;
@@ -42,7 +44,7 @@ textarea{
     left: 8rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 560px) {
     .contact-form{
         padding: 0;
         flex-direction: column;
@@ -54,3 +56,16 @@ textarea{
     }
 
 }   
+
+.icons {
+    display: flex;
+    gap: 0rem;
+    /* left:0; */
+    /* border:1px solid red; */
+  }
+  .icons > * {
+    transform: scale(0.5);
+  }
+  .icons > *:hover {
+    cursor: pointer;
+  }
