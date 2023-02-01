@@ -13,6 +13,7 @@ import Instagram from "../../img/instagram.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
+import { greetings, socialLinks } from "../../data";
 const Intro = () => {
   // Transition
   const transition = { duration: 2, type: "spring" };
@@ -27,11 +28,10 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>Andrew Thomas</span>
+          <span style={{ color: darkMode ? "white" : "" }}>{ greetings.greet }</span>
+          <span>{ greetings.name }</span>
           <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+            { greetings.description }
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -39,9 +39,9 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+          <a href={socialLinks.github} target='_blank'> <img src={Github} alt="" /> </a>
+          <a href={socialLinks.linkedin} target='_blank'> <img src={LinkedIn} alt="" /> </a>
+          <a href={socialLinks.github} target='_blank'> <img src={Instagram} alt="" /> </a>
         </div>
       </div>
       {/* right image side */}
