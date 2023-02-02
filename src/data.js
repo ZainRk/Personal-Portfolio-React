@@ -5,6 +5,21 @@ export const headerData = {
 export const greetings = {
     name: "Shuja Akbar",
     greet: "Hy! I Am",
+    email: 'shujaakbar2020@gmail.com',
+    roles: [
+        {
+            name: 'Backend Developer',
+            desc: 'Python, Django, Flask, Selenium, ReactJS',
+        },
+        {
+            name: 'Frontend Developer',
+            desc: 'Javascript, ReactJS, Figma',
+        },
+        {
+            name: 'DevOps',
+            desc: 'Docker, Kubernetes, Jenkins, NGINX, CI/CD',
+        },
+    ],
     description:
         "I'm passionate Backend Developer having an experience of web applications with Python, Django and Django REST Framework development",
     resumeLink:

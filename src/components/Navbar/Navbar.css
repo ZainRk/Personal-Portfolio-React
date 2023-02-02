@@ -25,9 +25,9 @@
   font-weight: 400;
 }
 
-.n-list {
+/* .n-list {
   flex: 10;
-}
+} */
 .n-list > ul {
   display: flex;
   gap: 2rem;
