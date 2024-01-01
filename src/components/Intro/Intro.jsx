@@ -30,7 +30,7 @@ const Intro = () => {
           <span>Saurabh Jaybhaye</span>
           <span>
             Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+            and development, producting the <br/> Quality work
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -73,7 +73,7 @@ const Intro = () => {
           className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+          <FloatinDiv img={thumbup} text1="React Native" text2="Developer" />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>

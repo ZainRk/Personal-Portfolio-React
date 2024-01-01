@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './Saurabh_Jaybhaye_Node_1y5m.pdf';
+import Resume from './Saurabh_Jaybhaye_1y6m.pdf';
 
 const Services = () => {
   // context
@@ -26,10 +26,8 @@ const Services = () => {
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
-        <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
-          <br />
-          ispum is simpley dummy text of printing
+        <spane className="text-center">
+I offer end-to-end web and mobile application development services,<br/> crafting modern and responsive user interfaces,<br/> building cross-platform mobile apps, and implementing robust full-stack solutions.<br/> My expertise encompasses creating seamless user experiences,<br/> efficient data management, and ensuring the<br/> successful execution of diverse development projects.
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -46,8 +44,8 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"Frontend Development"}
+            detail={<>Crafting dynamic and responsive user interfaces using <i>React.js, HTML, CSS, and Bootstrap</i> for seamless and visually appealing web applications</>}
           />
         </motion.div>
         {/* second card */}
@@ -58,8 +56,8 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            heading={"Mobile App Development"}
+            detail={<>Building native-quality mobile apps for iOS and Android platforms with <i>React Native,</i> ensuring a consistent and engaging user experience across devices</>}
           />
         </motion.div>
         {/* 3rd */}
@@ -70,9 +68,9 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
+            heading={"Full Stack Development"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              <>Developing end-to-end solutions by combining the versatility of <i>Express.js, Node.js, MongoDB, SQL & Redux Toolkit</i> ensuring efficient data management and smooth client-server communication</>
             }
             color="rgba(252, 166, 31, 0.45)"
           />
