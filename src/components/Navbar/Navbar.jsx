@@ -29,20 +29,20 @@ const navbar = () => {
                 Experience
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="portfolio" spy={true} smooth={true}>
                 Protfolio
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link to="testimonial" spy={true} smooth={true}>
-                Educations
+                Projects
               </Link>
             </li>
           </ul>
         </div>
         <Link to="contact" spy={true} smooth={true}>
-        <button className="button n-button">Contact</button>
+          <button className="button n-button">Contact</button>
         </Link>
       </div>
     </div>

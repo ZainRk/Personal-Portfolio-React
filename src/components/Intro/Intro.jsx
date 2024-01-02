@@ -30,7 +30,8 @@ const Intro = () => {
           <span>Saurabh Jaybhaye</span>
           <span>
             Frontend Developer with high level of experience in web designing
-            and development, producting the <br/> Quality work
+            <br />
+            and development, producting the Quality work
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -38,8 +39,12 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-         <a href="https://github.com/SaurabhJaybhaye" target="blank"> <img src={Github} alt="" /></a>
-         <a href="https://www.linkedin.com/feed/?trk=" target="blank"><img src={LinkedIn} alt="" /></a>
+          <a href="https://github.com/SaurabhJaybhaye" target="blank">
+            <img src={Github} alt="" />
+          </a>
+          <a href="https://www.linkedin.com/feed/?trk=" target="blank">
+            <img src={LinkedIn} alt="" />
+          </a>
         </div>
       </div>
       {/* right image side */}

@@ -9,6 +9,9 @@
     gap: 2rem;
     position: relative;
 }
+.t-img{
+    margin: 1rem;
+}
 .t-heading{
     align-self: start;
 }
